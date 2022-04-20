@@ -10,7 +10,12 @@ function Navigation({ currentPage, handlePageChange }) {
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">About Me</Nav.Link>
-          <Nav.Link href="#features">Portfolio</Nav.Link>
+          <Nav.Link
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+          >
+            Portfolio
+          </Nav.Link>
           <Nav.Link href="#pricing">Contact</Nav.Link>
           <Nav.Link href="#pricing">Resume</Nav.Link>
         </Nav>
