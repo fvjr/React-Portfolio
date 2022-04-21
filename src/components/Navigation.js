@@ -7,7 +7,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">Fernando Vasquez</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">About Me</Nav.Link>
           <Nav.Link
