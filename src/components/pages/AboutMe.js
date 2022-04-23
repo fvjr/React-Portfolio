@@ -7,9 +7,9 @@ export default function AboutMe() {
     <div>
       <Container>
         <p>
-          Hi! I'm Fernando. I'm a full-stack developer (in training) with an
-          interest in developing full-stack applications that help users solve
-          everyday problems.
+          Hi! I'm Fernando Vasquez. I'm a full-stack developer (in training)
+          with an interest in developing full-stack applications that help users
+          solve everyday problems.
         </p>
         <img src={Profilepic} alt="pic of me"></img>
       </Container>

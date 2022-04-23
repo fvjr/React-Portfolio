@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 export default function Footer() {
   return (
     <div>
-      <p>FOOTER</p>
+      <p>FOOTER - 2022 Fernando Vasquez - fvjr</p>
     </div>
   );
 }
