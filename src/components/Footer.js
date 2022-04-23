@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
 
 const styles = {
   textAlign: "center",
@@ -16,7 +17,18 @@ const styles = {
 export default function Footer() {
   return (
     <div>
-      <p style={styles}>FOOTER - 2022 Fernando Vasquez - fvjr</p>
+      <p style={styles}>
+        FOOTER - 2022 Fernando Vasquez{" "}
+        <Button variant="warning" href="https://github.com/fvjr">
+          GitHub
+        </Button>
+        <Button
+          variant="warning"
+          href="https://www.linkedin.com/in/fernando-vasquez-977ba2223/"
+        >
+          LinkedIn
+        </Button>
+      </p>
     </div>
   );
 }
