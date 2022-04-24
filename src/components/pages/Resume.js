@@ -1,10 +1,17 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import FVResume from "../../Assets/FVResume.pdf";
+import Button from "react-bootstrap/Button";
+
+const styles = {
+  fontSize: "24px",
+  textAlign: "center",
+  background: "gray",
+};
 
 export default function Resume() {
   return (
-    <div>
+    <div style={styles}>
       <Container>
         <p>
           I'm currently in the Penn LPS full-stack Web Developer bootcamp
@@ -18,13 +25,13 @@ export default function Resume() {
           My experience and skills include: ReactJS, JavaScript(ES6+), CSS,
           HTML5, Bootstrap, Node, MySQL, NoSQL, Express, and more.
         </p>
+        <p>
+          Check out my resume
+          <Button variant="warning" href={FVResume} download={true}>
+            here.
+          </Button>
+        </p>
       </Container>
     </div>
   );
 }
-
-// {
-//   /* <Nav.Link href={FVResume} download={true}>
-// Resume
-// </Nav.Link> */
-// }
