@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <div>
       <p style={styles}>
-        FOOTER - 2022 Fernando Vasquez{" "}
+        2022 Fernando Vasquez{" "}
         <Button variant="warning" href="https://github.com/fvjr">
           GitHub
         </Button>
