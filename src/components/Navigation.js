@@ -24,7 +24,9 @@ function Navigation({ currentPage, handlePageChange }) {
           >
             Portfolio
           </Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="#contact" onClick={() => handlePageChange("Contact")}>
+            Contact
+          </Nav.Link>
           <Nav.Link href="#resume" onClick={() => handlePageChange("Resume")}>
             Resume
           </Nav.Link>
