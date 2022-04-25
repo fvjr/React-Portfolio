@@ -26,7 +26,7 @@ export default function Resume() {
           HTML5, Bootstrap, Node, MySQL, NoSQL, Express, and more.
         </p>
         <p>
-          Check out my resume
+          Download my resume
           <Button variant="warning" href={FVResume} download={true}>
             here.
           </Button>
